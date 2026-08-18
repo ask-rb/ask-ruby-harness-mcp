@@ -33,7 +33,7 @@ Gem::Specification.new do |spec|
   # >= 0.4.4 for the wrap_result fix: structured (Hash) tool results must be
   # JSON-serialized into valid MCP content.
   spec.add_dependency "ask-ruby-harness", ">= 0.3.2"
-  spec.add_dependency "ask-mcp", ">= 0.4.5"
+  spec.add_dependency "ask-mcp", ">= 0.4.6"
 
   spec.add_development_dependency "minitest", "~> 5.25"
   spec.add_development_dependency "rake", "~> 13.0"
