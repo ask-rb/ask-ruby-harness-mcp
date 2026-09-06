@@ -9,7 +9,7 @@ class McpTest < Minitest::Test
 
   def test_tools_expose_the_full_harness_surface
     names = Ask::Ruby::MCP.tools.map(&:name)
-    assert_equal %w[query_database read_log read_model run_command run_tests schema_graph].sort, names.sort
+    assert_equal %w[dev_url query_database read_log read_model run_command run_tests schema_graph].sort, names.sort
   end
 
   def test_tools_are_harness_tool_instances
