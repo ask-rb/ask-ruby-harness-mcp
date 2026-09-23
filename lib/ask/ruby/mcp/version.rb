@@ -3,7 +3,7 @@
 module Ask
   module Ruby
     module MCP
-      VERSION = "0.1.11"
+      VERSION = "0.2.0"
     end
   end
 end
